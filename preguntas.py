@@ -272,7 +272,7 @@ def pregunta_07():
             if ValUnic[i]==matrix[j][1]:
                 letras.append(matrix[j][0])
                 
-        Rta.append((ValUnic[i],letras))    
+        Rta.append((int(ValUnic[i]),letras))    
 
     
     
@@ -315,7 +315,7 @@ def pregunta_08():
             if ValUnic[i]==matrix[j][1] and matrix[j][0] not in letras :
                letras.append(matrix[j][0])
         letras=sorted(letras)        
-        Rta.append((ValUnic[i],letras))    
+        Rta.append((int(ValUnic[i]),letras))    
 
     
     return Rta
